@@ -1,0 +1,33 @@
+a{text-decoration: none; color: black;}
+header{display: flex;justify-content: space-around;}
+button{width: 256px;
+    height: 36px;
+    top: 17px;
+    left: 218px;
+    border-radius: 12px;
+    background: rgba(252, 0, 74, 1);
+    background: rgba(252, 0, 74, 1);
+border: none; color: white;
+    }
+    .main button{width: 40px;
+        height: 40px;
+        border-radius: 9999px;
+        margin-left: 200px;
+}
+div{
+    box-shadow: 0px 4px 6px -4px rgba(0, 0, 0, 0.1);
+
+box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+width: 235px;
+height: 391px;
+top: 576px;
+left: 24px;
+border-radius: 15px;
+
+}
+.img{display: none;}
+.main{display: flex; flex-wrap: wrap; gap: 240px; justify-content: space-around;}
+@media(max-width:600px){
+    a{display: none;}
+    .img{display:block; color: blue; background-color: red;}
+}
